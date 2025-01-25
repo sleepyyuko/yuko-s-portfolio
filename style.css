@@ -1,0 +1,154 @@
+/* General styles */
+body {
+    background-image: url(https://i.pinimg.com/474x/1b/60/5c/1b605c1632591f64d57911c45958485d.jpg);
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #fbe2f0;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#navbar ul li:hover {
+    text-decoration: underline;
+    box-shadow: 3px 6px #d7b9c9;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.CAT {
+    width: 2000px;
+    height: 280px;
+    margin-top: 5px;
+    background-color: #fbe2f0;
+}
+
+.img img {
+    display: block;
+    width: 180px;
+    height: 280px;
+    margin-right: 50px;
+   
+}
+
+/* About and Education Section */
+#about-edu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+  
+}
+
+.about, .edu {
+    width: 48%;
+}
+
+#pineapple, #skills {
+    border: solid black 1px;
+    padding: 10px;
+    background-color: white;
+}
+
+#pineapple {
+    width: 100%;
+}
+
+#skills {
+    width: 100%;
+}
+
+/* Services Section */
+#services {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.wrapper
+{
+  display: flex;
+  text-align: center;
+}
+
+.wrapper div
+{
+border: solid black 1px;
+  width: 300px;
+  height: 60px;
+  background-color:#fbe2f0;
+  margin-right: 50px;
+  
+}
+
+  /* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #d7b9c9;
+    background-color:#fbe2f0 ;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+
+.contact {
+  border: solid black 1px;
+  padding: 10px;
+  background-color:#fbe2f0 ;
+  width: 500px;
+  align-content: center;
+}
+
+.footer {
+  background-color:#fbe2f0 ;
+  text-align: center; 
+  height: 70px;
+  
+}
